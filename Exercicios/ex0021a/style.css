@@ -1,0 +1,165 @@
+@font-face {
+    font-family: idroid;
+    src: url(idroid.otf)format(opentype);
+}
+body{
+    background-color: aquamarine;
+    margin:0px;
+    padding-top: 150px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+header>h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    max-width: 100%;
+    display: block;
+    white-space: nowrap;
+    font-size: clamp(0.5em, 5vw, 2em);
+}
+header>p{
+    color: white;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 0px;
+    
+
+    
+}
+header>nav>a{
+    margin: 0px 20px 0px 5px;
+    color:white;
+    text-decoration: none;
+    font-size: 1em;
+    
+    
+}
+header{
+    position: fixed;
+    top:0px;
+    width: 100%;
+    background: linear-gradient(to bottom,rgb(103, 204, 170), rgb(73, 148, 123), rgb(35, 66, 56) );
+    height: 150px;
+}
+header>nav{
+    margin: 15px 0px 0px 0px;
+   
+    white-space: nowrap;
+    font-size: clamp(0.2em, 3.5vw, 1em);
+}
+
+main>section{
+    width: 90%;
+    max-width: 800px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+    font-size: 1em;
+    box-shadow: 4px 4px 1px 1px rgba(53, 52, 52, 0.24);
+    
+    
+}
+main>section>p{
+    
+    text-indent: 60px;
+    font-size: 1em;
+    padding: 20px;
+}
+section>picture{
+    display: block;
+    text-align: center;
+}
+section>h2, h3{
+    font-family: idroid,sans-serif;
+}
+section>h3{
+    background:linear-gradient(to right,rgb(160, 228, 204),rgb(179, 245, 223),rgb(255, 255, 255), rgba(255, 255, 255, 0.233));
+    padding: 0px 0px 0px 5px;
+}
+section>iframe{
+    height: auto;
+    width: 90%;
+    
+    display: block;
+    
+    margin: auto;
+}
+section>picture>img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+section>img{
+    display: block;
+    text-align: center;
+    margin: auto;
+    
+}
+section>article{
+    background-color: aquamarine;
+    margin: 0px 20px 0px 20px;
+    padding: 0px 00px 20px 00px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 0px rgba(100, 100, 100, 0.253);
+   
+}
+section>article>h4{
+    background-color: rgb(63, 139, 114);
+    
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    margin-top: 0px;
+   
+}
+section>article>div{
+    width: 250px;
+    
+    vertical-align: top;
+    
+    
+}
+section>article>p{
+    padding: 00px 20px 00px 20px;
+    text-indent: 60px;
+    margin:0px 0px 0px 0px;
+
+}
+section > article {
+  display: flex;        
+  flex-wrap: wrap;      
+  gap: 20px;            
+}
+#finalizacao>p{
+    margin-top: 0px;
+    padding:20px;
+    margin:0px;
+    
+    
+}
+footer>p{
+    background-color: rgb(12, 124, 87);
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    
+}
+iframe{
+    background-color: aquamarine;
+    padding: 20px;
+    
+}
+main>#finalizacao{
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* Seletores personalizados.
+        #   = id
+        .   = class
+        :   = pseudo-class
+        ::  = pseudo-element
+        >   = children
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{/*o link foi acessado*/
+            color: darkred;
+        }
+        a:hover{/*passa o mouse em cima*/
+            text-decoration: underline;
+        }
+        a:active{/*quando é clicado fica amarelo*/
+            color: yellow;
+
+        }
+        .especial::after{
+            content:"<==ocohniM";
+            color: red;
+            font-weight: bold;
+        }
+        .especial::before{
+            content:"Minhoco==>";
+        }
+        a::after{
+            content:" <=";
+            text-decoration: none;
+            font-weight: normal;
+            color: blue;
+
+        }
+        a::before{
+            content: "=>";
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a target="_blank" rel="external"  href="https://github.com/">Repositorio GitHub</a></li>
+        <li><a class="especial" href="https://www.youtube.com/">Canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/cursos/">site do curso em video</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* em html é id em css é #
+    em html é class em css é .
+*/
+body{
+    background-color: rgb(153, 117, 117);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color: rgb(197, 255, 139);
+}
+h1#Principal{/* aqui tambem pode ser so como #principal ai tudo que for marcado como id="principal" pode ser usado aqui o id é recomendado usar so em um elemento oque se usa em mais de um é class*/
+    color: rgb(174, 0, 255);
+    text-align: center;
+}
+h2{
+    color:rgb(125, 204, 47) ;
+}
+h2.base{/*A class usa em mais de um elemento */
+    color:rgb(255, 141, 240);
+}
+.intermediario{
+    color: brown;
+}

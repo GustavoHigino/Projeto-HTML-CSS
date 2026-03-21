@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <p>dependendo do dispositivo ou tamanho do site a imagem muda</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/fotop.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/fotom.png" type="image/png">
+        <img src="imagens/fotog.png" alt="foto tamanho g">
+    </picture>
+    <p>vamos tocar musica ok ?</p>
+    <audio src="midia/Death Duel - Alex Jones _ Xander Jones.mp3" autoplay controls></audio>
+    <audio preload="auto" autoplay controls>
+        <source src="midia/Death Duel - Alex Jones _ Xander Jones.mp3" type="audio/mpeg">
+        <p>Caso não carregar aparece essa mensagem</p>
+    </audio>
+    
+</body>
+</html>
